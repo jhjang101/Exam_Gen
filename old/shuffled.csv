@@ -1,0 +1,16 @@
+question_line_nbr,question,answer1_line_nbr,answer2_line_nbr,answer3_line_nbr,answer4_line_nbr,keys
+20,1. A list of four physical quantities is,27,26,28,29,C
+31,2.  The uncertainty in reading a laboratory thermometer is 0.5 °C. The temperature of a liquid falls from 20 °C to 10 °C as measured by the thermometer. What is the percentage uncertainty in the change in temperature?,34,35,32,33,B
+54,7.  A car accelerates uniformly from rest to a velocity v during time t1. It then continues at constant velocity v from t1 to time t2.,56,57,58,59,D
+60,8.  The graph below shows how velocity v varies with time t for a ball thrown vertically upwards from the Earth’s surface.,64,63,66,65,B
+68,9.  A boy throws a ball horizontally at a speed of 20 m s-1 from the top of a cliff that is 80 m above the surface of the sea. Air resistance is negligible.,70,71,73,72,D
+86,12. An object is pushed from rest by a constant net force of 100 N. When the object has travelled 2.0 m the object has reached a velocity of 10 m s−1.,89,88,90,91,A
+98,14. Object A of mass m is lifted through a height h. Object B of mass 2m is lifted through a height 4h.,101,104,103,102,B
+107,15. Two trolleys of equal mass travel in opposite directions as shown.,114,116,115,117,A
+120,16. A mass m of a liquid of specific heat capacity c flows every second through a heater of power P. What is the difference in temperature between the liquid entering and leaving the heater?,122,124,121,123,D
+126,"17. When 40 kJ of energy is transferred to a quantity of a liquid substance, its temperature increases by 20 K. When 600 kJ of energy is transferred to the same quantity of the liquid at its boiling temperature, it vaporizes completely at constant temperature. ",130,131,129,128,B
+133,18. Energy is supplied at a constant rate to a fixed mass of a material. The material begins as a solid. The graph shows the variation of the temperature of the material with time. ,136,137,138,139,D
+144,20. Two identical containers X and Y each contain an ideal gas. X has N molecules of gas at an absolute temperature of T and Y has 3N molecules of gas at an absolute temperature of T2. What is the ratio of the pressures PYPX?,147,150,148,149,D
+163,23. A small ball of weight W is attached to a string and moves in a vertical circle of radius R.,169,170,167,168,B
+172,24. The gravitational field strength at the surface of Earth is g. Another planet has double the radius of Earth and the same density as Earth. What is the gravitational field strength at the surface of this planet?,176,174,173,175,D
+177,"25. The centre of the Earth is separated from the centre of the Moon by a distance D. Point P lies on a line joining the centre of the Earth and the centre of the Moon, a distance X from the centre of the Earth. The gravitational field strength at P is zero.",182,181,183,180,A

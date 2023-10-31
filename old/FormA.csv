@@ -1,0 +1,27 @@
+question_line_nbr,question,answer1_line_nbr,answer1,answer2_line_nbr,answer2,answer3_line_nbr,answer3,answer4_line_nbr,answer4,keys
+20,1. A list of four physical quantities is,26.0,A.  1,27.0,B.  2,28.0,C.  3,29.0,D.  4,C
+31,2.  The uncertainty in reading a laboratory thermometer is 0.5 °C. The temperature of a liquid falls from 20 °C to 10 °C as measured by the thermometer. What is the percentage uncertainty in the change in temperature?,32.0,A.  2.5 %,33.0,B.  5 %,34.0,C.  7.5 %,35.0,D.  10 %,D
+36,"3. An object of mass m is hung from a spring. When the object is pulled downwards and then released, the frequency f of oscillation of the object is given by the expression",,,,,,,,,B
+42,"4. Two different experiments, P and Q, generate two sets of data to confirm the proportionality of variables x and y. The graphs for the data from P and Q are shown. The maximum and minimum gradient lines are shown for both sets of data.",,,,,,,,,C
+47,5.  The road from city X to city Y is 1000 km long. The displacement is 800 km from X to Y.,,,,,,,,,D
+52,6.  An object is thrown upwards leaving the thrower’s hand at time t = 0. Which graph shows how speed v varies with t as the object rises and falls?,,,,,,,,,A
+54,7.  A car accelerates uniformly from rest to a velocity v during time t1. It then continues at constant velocity v from t1 to time t2.,56.0,A.  v t2,57.0,B.  12vt2-t1+v t1,58.0,C.  12vt2+t1,59.0,D.  12v t1+vt2-t1,D
+60,8.  The graph below shows how velocity v varies with time t for a ball thrown vertically upwards from the Earth’s surface.,63.0,A. displacement.,64.0,B. final velocity.,65.0,C. change in velocity.,66.0,D. acceleration.,A
+68,9.  A boy throws a ball horizontally at a speed of 20 m s-1 from the top of a cliff that is 80 m above the surface of the sea. Air resistance is negligible.,70.0,A. 40 m,71.0,B. 60 m,72.0,C. 80 m,73.0,D. 320 m,C
+75,10. A rocket has just been launched vertically from Earth. The image shows the free-body diagram of the rocket. F1 represents a larger force than F2.,,,,,,,,,B
+79,11. An object of mass 2.0 kg rests on a rough surface. A person pushes the object in a straight line with a force of 10 N through a distance d.,,,,,,,,,A
+86,12. An object is pushed from rest by a constant net force of 100 N. When the object has travelled 2.0 m the object has reached a velocity of 10 m s−1.,88.0,A.  2 kg,89.0,B.  4 kg,90.0,C.  40 kg,91.0,D.  200 kg,B
+94,"13. Two blocks of different masses are released from identical springs of elastic constant k = 100 Nm−1, initially compressed a distance Δx = 0.1 m. Block X has a mass of 1 kg and block Y has a mass of 0.25 kg.",,,,,,,,,C
+98,14. Object A of mass m is lifted through a height h. Object B of mass 2m is lifted through a height 4h.,101.0,A. 1,102.0,B. 2,103.0,C. 4,104.0,D. 8,D
+107,15. Two trolleys of equal mass travel in opposite directions as shown.,114.0,A.  1 m s−1,115.0,B.  2 m s−1,116.0,C.  5 m s−1,117.0,D.  10 m s−1,A
+120,16. A mass m of a liquid of specific heat capacity c flows every second through a heater of power P. What is the difference in temperature between the liquid entering and leaving the heater?,121.0,A.  mcP,122.0,B.  273+mcP,123.0,C.  Pmc,124.0,D.  273+Pmc,C
+126,"17. When 40 kJ of energy is transferred to a quantity of a liquid substance, its temperature increases by 20 K. When 600 kJ of energy is transferred to the same quantity of the liquid at its boiling temperature, it vaporizes completely at constant temperature. ",128.0,A. 15 K−1,129.0,B. 15 K,130.0,C. 300 K−1,131.0,D. 300 K,D
+133,18. Energy is supplied at a constant rate to a fixed mass of a material. The material begins as a solid. The graph shows the variation of the temperature of the material with time. ,136.0,A. cs > cg > cl ,137.0,B. cl > cs > cg ,138.0,C. cl > cg > cs ,139.0,D. cg > cs > cl,D
+141,19. Two ideal gases X and Y are at the same temperature. The mass of a particle of gas X is larger than the mass of a particle of gas Y. Which is correct about the average kinetic energy and the average speed of the particles in gases X and Y?,,,,,,,,,B
+144,20. Two identical containers X and Y each contain an ideal gas. X has N molecules of gas at an absolute temperature of T and Y has 3N molecules of gas at an absolute temperature of T2. What is the ratio of the pressures PYPX?,147.0,A.   16,148.0,B.   23,149.0,C.   32,150.0,D.   6,C
+153,21. A horizontal disc rotates uniformly at a constant angular velocity about a central axis normal to the plane of the disc.,,,,,,,,,B
+160,"22. Two satellites of mass m and 2m orbit a planet at the same orbit radius. If F is the force exerted on the satellite of mass m by the planet and a is the centripetal acceleration of this satellite, what is the force and acceleration of the satellite with mass 2m?",,,,,,,,,A
+163,23. A small ball of weight W is attached to a string and moves in a vertical circle of radius R.,167.0,A.  W R2,168.0,B.  W R,169.0,C.  2 W R,170.0,D.  5W R2,D
+172,24. The gravitational field strength at the surface of Earth is g. Another planet has double the radius of Earth and the same density as Earth. What is the gravitational field strength at the surface of this planet?,173.0,A.  g2,174.0,B.  g4,175.0,C.  2g,176.0,D.  4g,C
+177,"25. The centre of the Earth is separated from the centre of the Moon by a distance D. Point P lies on a line joining the centre of the Earth and the centre of the Moon, a distance X from the centre of the Earth. The gravitational field strength at P is zero.",180.0,A.  D-X2X2,181.0,B.  D-XX,182.0,C.  X2D-X2,183.0,D.  XD-X,C
+215,,,,,,,,,,
