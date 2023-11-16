@@ -72,7 +72,10 @@ def read_questions(soup):
                                'K','K_text'])
     # count the number of questions, answers, and keys for error
     No_of_Questions = 0
-    No_of_Answers = 0
+    No_of_A = 0
+    No_of_B = 0
+    No_of_C = 0
+    No_of_D = 0
     No_of_Keys = 0
     key_start = 0
     
@@ -85,17 +88,23 @@ def read_questions(soup):
             
         elif bool(re.match(r'A\.', text)):    # extract answers A
             df.loc[len(df)-1, ['A','A_text']] = [i, text]
+
+            No_of_A += 1    # count number of answers A
             
         elif bool(re.match(r'B\.', text)):    # extract answers B
             df.loc[len(df)-1, ['B','B_text']] = [i, text]
+
+            No_of_B += 1    # count number of answers B
             
         elif bool(re.match(r'C\.', text)):    # extract answers C
             df.loc[len(df)-1, ['C','C_text']] = [i, text]
+
+            No_of_C += 1    # count number of answers C
             
         elif bool(re.match(r'D\.', text)):    # extract answers D
             df.loc[len(df)-1, ['D','D_text']] = [i, text]
             
-            No_of_Answers += 1    # count number of answers D
+            No_of_D += 1    # count number of answers D
             
         elif bool(re.match('FORM X KEY', text)):
             key_start = i+1    # find the position that starts the keys
@@ -124,8 +133,12 @@ def read_questions(soup):
             pass
         
     print('Number of questions: ', No_of_Questions)
-    print('Number of answers: ', No_of_Answers)
+    print('Number of A: ', No_of_A)
+    print('Number of B: ', No_of_B)
+    print('Number of C: ', No_of_C)
+    print('Number of D: ', No_of_D)
     print('Number of keys: ', No_of_Keys)
+    print('')
 
     # show message if number of question and number of key is not same
     if No_of_Questions == No_of_Keys:
@@ -178,6 +191,8 @@ def shuffle(df):
         new_K_text = df_shuffled.columns[df_shuffled.iloc[i].isin([K_index])][0]    # lookup the new key (ABCD) after shuffle
         new_K_texts.append(new_K_text)
     df_shuffled['K_text'] = new_K_texts    # update new key (ABCD)
+
+    print(f'{len(df_shuffled)} out of {len(df)} questions are shuffled.')
     
     return(df_to_shuffle,df_shuffled)
 
@@ -344,7 +359,7 @@ def to_file(xml,df_key,file,letter):
     # add "word/document.xml' containing xml
     with ZipFile(filepath, 'a') as newzip:
         newzip.writestr('word/document.xml', xml)
-        print(fileout, 'is added to', file, 'folder.')
+        print(fileout, 'is added to', file, 'folder.\n')
         
     # save the key file name
     keyout = file+'_key.csv'
