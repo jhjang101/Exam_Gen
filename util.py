@@ -124,7 +124,7 @@ def read_questions(soup):
     for i in range(No_of_Questions):
         K = key_start+i    # the position of the key
         K_text = paragraphs[K].get_text()    # the key (ex. A B C D)
-        if bool(re.match('A|B|C|D', K_text)):
+        if bool(re.match(r'A|B|C|D', K_text)):
             df.loc[i, ['K','K_text']] = [K, K_text]
             
             No_of_Keys += 1    # count number of keys
@@ -222,7 +222,7 @@ def to_paragraphs(soup, df_to_shuffle, df_shuffled, letter ='A'):
     for n in As:
         A_ttag = paragraphs[n].find('w:t')
         A_text = A_ttag.get_text()  
-        new_A_text = 'A.' + A_text[2:]   
+        new_A_text = 'A' + A_text[1:]   
         A_ttag.string = new_A_text
 
     ###### for B
@@ -236,7 +236,7 @@ def to_paragraphs(soup, df_to_shuffle, df_shuffled, letter ='A'):
     for n in Bs:
         B_ttag = paragraphs[n].find('w:t')
         B_text = B_ttag.get_text()  
-        new_B_text = 'B.' + B_text[2:]   
+        new_B_text = 'B' + B_text[1:]   
         B_ttag.string = new_B_text
     
     ###### for C
@@ -250,7 +250,7 @@ def to_paragraphs(soup, df_to_shuffle, df_shuffled, letter ='A'):
     for n in Cs:
         C_ttag = paragraphs[n].find('w:t')
         C_text = C_ttag.get_text()  
-        new_C_text = 'C.' + C_text[2:]   
+        new_C_text = 'C' + C_text[1:]   
         C_ttag.string = new_C_text
     
     ###### for D    
@@ -264,7 +264,7 @@ def to_paragraphs(soup, df_to_shuffle, df_shuffled, letter ='A'):
     for n in Ds:
         D_ttag = paragraphs[n].find('w:t')
         D_text = D_ttag.get_text()  
-        new_D_text = 'D.' + D_text[2:]   
+        new_D_text = 'D' + D_text[1:]   
         D_ttag.string = new_D_text
     
     # replace form X
