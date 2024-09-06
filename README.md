@@ -26,11 +26,13 @@
    - [pandas](https://pandas.pydata.org/) (version 2.1.1)
    
    - [numpy](https://numpy.org/) (version 1.26.0)
+  
+   - [lxml](https://lxml.de/) (version 5.2.2)
      
      Install the dependencies using:
 
 ```bash
-pip install beautifulsoup4==4.12.2 pandas==2.1.1 numpy==1.26.0
+pip install beautifulsoup4==4.12.2 pandas==2.1.1 numpy==1.26.0 lxml==5.2.2
 ```
 
 ## How to Use
